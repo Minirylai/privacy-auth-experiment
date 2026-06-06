@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="509.324063pt" height="625.239687pt" viewBox="0 0 509.324063 625.239687" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-06-06T10:53:25.548240</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 625.239687 
+L 509.324063 625.239687 
+L 509.324063 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 131.924063 599.26 
+L 502.124063 599.26 
+L 502.124063 7.2 
+L 131.924063 7.2 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 193.624063 599.26 
+L 193.624063 7.2 
+" clip-path="url(#p963c331ca5)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="193.624063" y="615.55375" transform="rotate(-0 193.624063 615.55375)">Baseline</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <path d="M 317.024063 599.26 
+L 317.024063 7.2 
+" clip-path="url(#p963c331ca5)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="317.024063" y="615.55375" transform="rotate(-0 317.024063 615.55375)">Merkle SD</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <path d="M 440.424062 599.26 
+L 440.424062 7.2 
+" clip-path="url(#p963c331ca5)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="440.424062" y="615.55375" transform="rotate(-0 440.424062 615.55375)">Blind Token</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <path d="M 131.924063 31.869167 
+L 502.124063 31.869167 
+" clip-path="url(#p963c331ca5)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; fill: #262626" transform="translate(98.56625 28.554948)">U001</text>
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; fill: #262626" transform="translate(30.289688 40.633385)">cyber project level2</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_5">
+      <path d="M 131.924063 81.2075 
+L 502.124063 81.2075 
+" clip-path="url(#p963c331ca5)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; fill: #262626" transform="translate(98.56625 77.922187)">U001</text>
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; fill: #262626" transform="translate(60.106875 90.000625)">student basic</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_6">
+      <path d="M 131.924063 130.545833 
+L 502.124063 130.545833 
+" clip-path="url(#p963c331ca5)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; fill: #262626" transform="translate(98.56625 127.260521)">U001</text>
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; fill: #262626" transform="translate(22.79125 139.338958)">trained adult student</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_7">
+      <path d="M 131.924063 179.884167 
+L 502.124063 179.884167 
+" clip-path="url(#p963c331ca5)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; fill: #262626" transform="translate(98.56625 176.569948)">U002</text>
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; fill: #262626" transform="translate(30.289688 188.648385)">cyber project level2</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_8">
+      <path d="M 131.924063 229.2225 
+L 502.124063 229.2225 
+" clip-path="url(#p963c331ca5)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; fill: #262626" transform="translate(98.56625 225.937187)">U002</text>
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; fill: #262626" transform="translate(60.106875 238.015625)">student basic</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_9">
+      <path d="M 131.924063 278.560833 
+L 502.124063 278.560833 
+" clip-path="url(#p963c331ca5)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; fill: #262626" transform="translate(98.56625 275.275521)">U002</text>
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; fill: #262626" transform="translate(22.79125 287.353958)">trained adult student</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_10">
+      <path d="M 131.924063 327.899167 
+L 502.124063 327.899167 
+" clip-path="url(#p963c331ca5)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; fill: #262626" transform="translate(98.56625 324.584948)">U003</text>
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; fill: #262626" transform="translate(30.289688 336.663385)">cyber project level2</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_11">
+      <path d="M 131.924063 377.2375 
+L 502.124063 377.2375 
+" clip-path="url(#p963c331ca5)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; fill: #262626" transform="translate(98.56625 373.952187)">U003</text>
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; fill: #262626" transform="translate(60.106875 386.030625)">student basic</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_12">
+      <path d="M 131.924063 426.575833 
+L 502.124063 426.575833 
+" clip-path="url(#p963c331ca5)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; fill: #262626" transform="translate(98.56625 423.290521)">U003</text>
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; fill: #262626" transform="translate(22.79125 435.368958)">trained adult student</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_13">
+      <path d="M 131.924063 475.914167 
+L 502.124063 475.914167 
+" clip-path="url(#p963c331ca5)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; fill: #262626" transform="translate(98.56625 472.599948)">U004</text>
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; fill: #262626" transform="translate(30.289688 484.678385)">cyber project level2</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_14">
+      <path d="M 131.924063 525.2525 
+L 502.124063 525.2525 
+" clip-path="url(#p963c331ca5)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; fill: #262626" transform="translate(98.56625 521.967187)">U004</text>
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; fill: #262626" transform="translate(60.106875 534.045625)">student basic</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_15">
+      <path d="M 131.924063 574.590833 
+L 502.124063 574.590833 
+" clip-path="url(#p963c331ca5)" style="fill: none; stroke: #cccccc; stroke-width: 0.8; stroke-linecap: round"/>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; fill: #262626" transform="translate(98.56625 571.305521)">U004</text>
+      <text style="font-size: 10px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; fill: #262626" transform="translate(22.79125 583.383958)">trained adult student</text>
+     </g>
+    </g>
+    <g id="text_16">
+     <text style="font-size: 11px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="15.993125" y="303.23" transform="rotate(-90 15.993125 303.23)">user-policy case</text>
+    </g>
+   </g>
+   <g id="QuadMesh_1">
+    <path d="M 131.924063 7.2 
+L 255.324063 7.2 
+L 255.324063 56.538333 
+L 131.924063 56.538333 
+L 131.924063 7.2 
+" clip-path="url(#p963c331ca5)" style="fill: #ddeedb; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 255.324063 7.2 
+L 378.724063 7.2 
+L 378.724063 56.538333 
+L 255.324063 56.538333 
+L 255.324063 7.2 
+" clip-path="url(#p963c331ca5)" style="fill: #ddeedb; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 378.724063 7.2 
+L 502.124063 7.2 
+L 502.124063 56.538333 
+L 378.724063 56.538333 
+L 378.724063 7.2 
+" clip-path="url(#p963c331ca5)" style="fill: #ddeedb; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 131.924063 56.538333 
+L 255.324063 56.538333 
+L 255.324063 105.876667 
+L 131.924063 105.876667 
+L 131.924063 56.538333 
+" clip-path="url(#p963c331ca5)" style="fill: #ddeedb; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 255.324063 56.538333 
+L 378.724063 56.538333 
+L 378.724063 105.876667 
+L 255.324063 105.876667 
+L 255.324063 56.538333 
+" clip-path="url(#p963c331ca5)" style="fill: #ddeedb; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 378.724063 56.538333 
+L 502.124063 56.538333 
+L 502.124063 105.876667 
+L 378.724063 105.876667 
+L 378.724063 56.538333 
+" clip-path="url(#p963c331ca5)" style="fill: #ddeedb; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 131.924063 105.876667 
+L 255.324063 105.876667 
+L 255.324063 155.215 
+L 131.924063 155.215 
+L 131.924063 105.876667 
+" clip-path="url(#p963c331ca5)" style="fill: #ddeedb; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 255.324063 105.876667 
+L 378.724063 105.876667 
+L 378.724063 155.215 
+L 255.324063 155.215 
+L 255.324063 105.876667 
+" clip-path="url(#p963c331ca5)" style="fill: #ddeedb; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 378.724063 105.876667 
+L 502.124063 105.876667 
+L 502.124063 155.215 
+L 378.724063 155.215 
+L 378.724063 105.876667 
+" clip-path="url(#p963c331ca5)" style="fill: #ddeedb; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 131.924063 155.215 
+L 255.324063 155.215 
+L 255.324063 204.553333 
+L 131.924063 204.553333 
+L 131.924063 155.215 
+" clip-path="url(#p963c331ca5)" style="fill: #fde0dd; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 255.324063 155.215 
+L 378.724063 155.215 
+L 378.724063 204.553333 
+L 255.324063 204.553333 
+L 255.324063 155.215 
+" clip-path="url(#p963c331ca5)" style="fill: #fde0dd; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 378.724063 155.215 
+L 502.124063 155.215 
+L 502.124063 204.553333 
+L 378.724063 204.553333 
+L 378.724063 155.215 
+" clip-path="url(#p963c331ca5)" style="fill: #fde0dd; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 131.924063 204.553333 
+L 255.324063 204.553333 
+L 255.324063 253.891667 
+L 131.924063 253.891667 
+L 131.924063 204.553333 
+" clip-path="url(#p963c331ca5)" style="fill: #ddeedb; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 255.324063 204.553333 
+L 378.724063 204.553333 
+L 378.724063 253.891667 
+L 255.324063 253.891667 
+L 255.324063 204.553333 
+" clip-path="url(#p963c331ca5)" style="fill: #ddeedb; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 378.724063 204.553333 
+L 502.124063 204.553333 
+L 502.124063 253.891667 
+L 378.724063 253.891667 
+L 378.724063 204.553333 
+" clip-path="url(#p963c331ca5)" style="fill: #ddeedb; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 131.924063 253.891667 
+L 255.324063 253.891667 
+L 255.324063 303.23 
+L 131.924063 303.23 
+L 131.924063 253.891667 
+" clip-path="url(#p963c331ca5)" style="fill: #fde0dd; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 255.324063 253.891667 
+L 378.724063 253.891667 
+L 378.724063 303.23 
+L 255.324063 303.23 
+L 255.324063 253.891667 
+" clip-path="url(#p963c331ca5)" style="fill: #fde0dd; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 378.724063 253.891667 
+L 502.124063 253.891667 
+L 502.124063 303.23 
+L 378.724063 303.23 
+L 378.724063 253.891667 
+" clip-path="url(#p963c331ca5)" style="fill: #fde0dd; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 131.924063 303.23 
+L 255.324063 303.23 
+L 255.324063 352.568333 
+L 131.924063 352.568333 
+L 131.924063 303.23 
+" clip-path="url(#p963c331ca5)" style="fill: #ddeedb; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 255.324063 303.23 
+L 378.724063 303.23 
+L 378.724063 352.568333 
+L 255.324063 352.568333 
+L 255.324063 303.23 
+" clip-path="url(#p963c331ca5)" style="fill: #ddeedb; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 378.724063 303.23 
+L 502.124063 303.23 
+L 502.124063 352.568333 
+L 378.724063 352.568333 
+L 378.724063 303.23 
+" clip-path="url(#p963c331ca5)" style="fill: #ddeedb; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 131.924063 352.568333 
+L 255.324063 352.568333 
+L 255.324063 401.906667 
+L 131.924063 401.906667 
+L 131.924063 352.568333 
+" clip-path="url(#p963c331ca5)" style="fill: #fde0dd; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 255.324063 352.568333 
+L 378.724063 352.568333 
+L 378.724063 401.906667 
+L 255.324063 401.906667 
+L 255.324063 352.568333 
+" clip-path="url(#p963c331ca5)" style="fill: #fde0dd; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 378.724063 352.568333 
+L 502.124063 352.568333 
+L 502.124063 401.906667 
+L 378.724063 401.906667 
+L 378.724063 352.568333 
+" clip-path="url(#p963c331ca5)" style="fill: #fde0dd; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 131.924063 401.906667 
+L 255.324063 401.906667 
+L 255.324063 451.245 
+L 131.924063 451.245 
+L 131.924063 401.906667 
+" clip-path="url(#p963c331ca5)" style="fill: #fde0dd; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 255.324063 401.906667 
+L 378.724063 401.906667 
+L 378.724063 451.245 
+L 255.324063 451.245 
+L 255.324063 401.906667 
+" clip-path="url(#p963c331ca5)" style="fill: #fde0dd; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 378.724063 401.906667 
+L 502.124063 401.906667 
+L 502.124063 451.245 
+L 378.724063 451.245 
+L 378.724063 401.906667 
+" clip-path="url(#p963c331ca5)" style="fill: #fde0dd; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 131.924063 451.245 
+L 255.324063 451.245 
+L 255.324063 500.583333 
+L 131.924063 500.583333 
+L 131.924063 451.245 
+" clip-path="url(#p963c331ca5)" style="fill: #ddeedb; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 255.324063 451.245 
+L 378.724063 451.245 
+L 378.724063 500.583333 
+L 255.324063 500.583333 
+L 255.324063 451.245 
+" clip-path="url(#p963c331ca5)" style="fill: #ddeedb; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 378.724063 451.245 
+L 502.124063 451.245 
+L 502.124063 500.583333 
+L 378.724063 500.583333 
+L 378.724063 451.245 
+" clip-path="url(#p963c331ca5)" style="fill: #ddeedb; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 131.924063 500.583333 
+L 255.324063 500.583333 
+L 255.324063 549.921667 
+L 131.924063 549.921667 
+L 131.924063 500.583333 
+" clip-path="url(#p963c331ca5)" style="fill: #ddeedb; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 255.324063 500.583333 
+L 378.724063 500.583333 
+L 378.724063 549.921667 
+L 255.324063 549.921667 
+L 255.324063 500.583333 
+" clip-path="url(#p963c331ca5)" style="fill: #ddeedb; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 378.724063 500.583333 
+L 502.124063 500.583333 
+L 502.124063 549.921667 
+L 378.724063 549.921667 
+L 378.724063 500.583333 
+" clip-path="url(#p963c331ca5)" style="fill: #ddeedb; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 131.924063 549.921667 
+L 255.324063 549.921667 
+L 255.324063 599.26 
+L 131.924063 599.26 
+L 131.924063 549.921667 
+" clip-path="url(#p963c331ca5)" style="fill: #fde0dd; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 255.324063 549.921667 
+L 378.724063 549.921667 
+L 378.724063 599.26 
+L 255.324063 599.26 
+L 255.324063 549.921667 
+" clip-path="url(#p963c331ca5)" style="fill: #fde0dd; stroke: #ffffff; stroke-width: 0.8"/>
+    <path d="M 378.724063 549.921667 
+L 502.124063 549.921667 
+L 502.124063 599.26 
+L 378.724063 599.26 
+L 378.724063 549.921667 
+" clip-path="url(#p963c331ca5)" style="fill: #fde0dd; stroke: #ffffff; stroke-width: 0.8"/>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="193.624063" y="34.760768" transform="rotate(-0 193.624063 34.760768)">ALLOW</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="317.024063" y="34.760768" transform="rotate(-0 317.024063 34.760768)">ALLOW</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="440.424062" y="34.760768" transform="rotate(-0 440.424062 34.760768)">ALLOW</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="193.624063" y="84.099102" transform="rotate(-0 193.624063 84.099102)">ALLOW</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="317.024063" y="84.099102" transform="rotate(-0 317.024063 84.099102)">ALLOW</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="440.424062" y="84.099102" transform="rotate(-0 440.424062 84.099102)">ALLOW</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="193.624063" y="133.437435" transform="rotate(-0 193.624063 133.437435)">ALLOW</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="317.024063" y="133.437435" transform="rotate(-0 317.024063 133.437435)">ALLOW</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="440.424062" y="133.437435" transform="rotate(-0 440.424062 133.437435)">ALLOW</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="193.624063" y="182.775768" transform="rotate(-0 193.624063 182.775768)">DENY</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="317.024063" y="182.775768" transform="rotate(-0 317.024063 182.775768)">DENY</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="440.424062" y="182.775768" transform="rotate(-0 440.424062 182.775768)">DENY</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="193.624063" y="232.114102" transform="rotate(-0 193.624063 232.114102)">ALLOW</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="317.024063" y="232.114102" transform="rotate(-0 317.024063 232.114102)">ALLOW</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="440.424062" y="232.114102" transform="rotate(-0 440.424062 232.114102)">ALLOW</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="193.624063" y="281.452435" transform="rotate(-0 193.624063 281.452435)">DENY</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="317.024063" y="281.452435" transform="rotate(-0 317.024063 281.452435)">DENY</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="440.424062" y="281.452435" transform="rotate(-0 440.424062 281.452435)">DENY</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="193.624063" y="330.790768" transform="rotate(-0 193.624063 330.790768)">ALLOW</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="317.024063" y="330.790768" transform="rotate(-0 317.024063 330.790768)">ALLOW</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="440.424062" y="330.790768" transform="rotate(-0 440.424062 330.790768)">ALLOW</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="193.624063" y="380.129102" transform="rotate(-0 193.624063 380.129102)">DENY</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="317.024063" y="380.129102" transform="rotate(-0 317.024063 380.129102)">DENY</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="440.424062" y="380.129102" transform="rotate(-0 440.424062 380.129102)">DENY</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="193.624063" y="429.467435" transform="rotate(-0 193.624063 429.467435)">DENY</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="317.024063" y="429.467435" transform="rotate(-0 317.024063 429.467435)">DENY</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="440.424062" y="429.467435" transform="rotate(-0 440.424062 429.467435)">DENY</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="193.624063" y="478.805768" transform="rotate(-0 193.624063 478.805768)">ALLOW</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="317.024063" y="478.805768" transform="rotate(-0 317.024063 478.805768)">ALLOW</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="440.424062" y="478.805768" transform="rotate(-0 440.424062 478.805768)">ALLOW</text>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="193.624063" y="528.144102" transform="rotate(-0 193.624063 528.144102)">ALLOW</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="317.024063" y="528.144102" transform="rotate(-0 317.024063 528.144102)">ALLOW</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="440.424062" y="528.144102" transform="rotate(-0 440.424062 528.144102)">ALLOW</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="193.624063" y="577.482435" transform="rotate(-0 193.624063 577.482435)">DENY</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="317.024063" y="577.482435" transform="rotate(-0 317.024063 577.482435)">DENY</text>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 10.5px; font-family: 'Microsoft YaHei', 'SimHei', 'Arial Unicode MS', 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #262626" x="440.424062" y="577.482435" transform="rotate(-0 440.424062 577.482435)">DENY</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p963c331ca5">
+   <rect x="131.924063" y="7.2" width="370.2" height="592.06"/>
+  </clipPath>
+ </defs>
+</svg>
