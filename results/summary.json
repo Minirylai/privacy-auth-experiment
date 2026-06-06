@@ -1,0 +1,932 @@
+{
+  "summary_by_mode": {
+    "baseline-full-identity": {
+      "runs": 12,
+      "verified": 12,
+      "allowed": 7,
+      "median_latency_ms": 0.0115,
+      "mean_personal_leakage_bits": 221,
+      "mean_protocol_metadata_bits": 0,
+      "mean_exposed_fields": 14,
+      "linkable_presentations": 12
+    },
+    "selective-disclosure-merkle-vc": {
+      "runs": 12,
+      "verified": 12,
+      "allowed": 7,
+      "median_latency_ms": 70.7349,
+      "mean_personal_leakage_bits": 2.67,
+      "mean_protocol_metadata_bits": 256,
+      "mean_exposed_fields": 3,
+      "linkable_presentations": 12
+    },
+    "blind-token-minimal-disclosure": {
+      "runs": 12,
+      "verified": 12,
+      "allowed": 7,
+      "median_latency_ms": 4.0201,
+      "mean_personal_leakage_bits": 1,
+      "mean_protocol_metadata_bits": 149.33,
+      "mean_exposed_fields": 1.17,
+      "linkable_presentations": 0
+    }
+  },
+  "correctness_matrix": [
+    {
+      "user_id": "U001",
+      "policy": "cyber_project_level2",
+      "decisions": {
+        "baseline-full-identity": true,
+        "selective-disclosure-merkle-vc": true,
+        "blind-token-minimal-disclosure": true
+      },
+      "consistent": true
+    },
+    {
+      "user_id": "U001",
+      "policy": "student_basic",
+      "decisions": {
+        "baseline-full-identity": true,
+        "selective-disclosure-merkle-vc": true,
+        "blind-token-minimal-disclosure": true
+      },
+      "consistent": true
+    },
+    {
+      "user_id": "U001",
+      "policy": "trained_adult_student",
+      "decisions": {
+        "baseline-full-identity": true,
+        "selective-disclosure-merkle-vc": true,
+        "blind-token-minimal-disclosure": true
+      },
+      "consistent": true
+    },
+    {
+      "user_id": "U002",
+      "policy": "cyber_project_level2",
+      "decisions": {
+        "baseline-full-identity": false,
+        "selective-disclosure-merkle-vc": false,
+        "blind-token-minimal-disclosure": false
+      },
+      "consistent": true
+    },
+    {
+      "user_id": "U002",
+      "policy": "student_basic",
+      "decisions": {
+        "baseline-full-identity": true,
+        "selective-disclosure-merkle-vc": true,
+        "blind-token-minimal-disclosure": true
+      },
+      "consistent": true
+    },
+    {
+      "user_id": "U002",
+      "policy": "trained_adult_student",
+      "decisions": {
+        "baseline-full-identity": false,
+        "selective-disclosure-merkle-vc": false,
+        "blind-token-minimal-disclosure": false
+      },
+      "consistent": true
+    },
+    {
+      "user_id": "U003",
+      "policy": "cyber_project_level2",
+      "decisions": {
+        "baseline-full-identity": true,
+        "selective-disclosure-merkle-vc": true,
+        "blind-token-minimal-disclosure": true
+      },
+      "consistent": true
+    },
+    {
+      "user_id": "U003",
+      "policy": "student_basic",
+      "decisions": {
+        "baseline-full-identity": false,
+        "selective-disclosure-merkle-vc": false,
+        "blind-token-minimal-disclosure": false
+      },
+      "consistent": true
+    },
+    {
+      "user_id": "U003",
+      "policy": "trained_adult_student",
+      "decisions": {
+        "baseline-full-identity": false,
+        "selective-disclosure-merkle-vc": false,
+        "blind-token-minimal-disclosure": false
+      },
+      "consistent": true
+    },
+    {
+      "user_id": "U004",
+      "policy": "cyber_project_level2",
+      "decisions": {
+        "baseline-full-identity": true,
+        "selective-disclosure-merkle-vc": true,
+        "blind-token-minimal-disclosure": true
+      },
+      "consistent": true
+    },
+    {
+      "user_id": "U004",
+      "policy": "student_basic",
+      "decisions": {
+        "baseline-full-identity": true,
+        "selective-disclosure-merkle-vc": true,
+        "blind-token-minimal-disclosure": true
+      },
+      "consistent": true
+    },
+    {
+      "user_id": "U004",
+      "policy": "trained_adult_student",
+      "decisions": {
+        "baseline-full-identity": false,
+        "selective-disclosure-merkle-vc": false,
+        "blind-token-minimal-disclosure": false
+      },
+      "consistent": true
+    }
+  ],
+  "rows": [
+    {
+      "user_id": "U001",
+      "policy": "student_basic",
+      "mode": "baseline-full-identity",
+      "allowed": true,
+      "verified": true,
+      "exposed_fields": [
+        "age_over_18",
+        "authorization_level",
+        "credential_status",
+        "department",
+        "department_cyber",
+        "email",
+        "expires_at",
+        "id_number",
+        "name",
+        "project_id",
+        "role",
+        "role_student",
+        "student_id",
+        "training_completed"
+      ],
+      "personal_leakage_bits": 221,
+      "protocol_metadata_bits": 0,
+      "linkability_handle": "U001",
+      "elapsed_ms": 0.0138,
+      "notes": []
+    },
+    {
+      "user_id": "U001",
+      "policy": "student_basic",
+      "mode": "selective-disclosure-merkle-vc",
+      "allowed": true,
+      "verified": true,
+      "exposed_fields": [
+        "role_student",
+        "credential_root"
+      ],
+      "personal_leakage_bits": 1,
+      "protocol_metadata_bits": 256,
+      "linkability_handle": "ac83c0c5e0217b885c34baae9e51e4aea40d3630d8623b31789532e41b1b96ed",
+      "elapsed_ms": 67.0671,
+      "notes": [
+        "credential root is stable and linkable across presentations"
+      ]
+    },
+    {
+      "user_id": "U001",
+      "policy": "student_basic",
+      "mode": "blind-token-minimal-disclosure",
+      "allowed": true,
+      "verified": true,
+      "exposed_fields": [
+        "policy_satisfied_bit",
+        "single_use_token"
+      ],
+      "personal_leakage_bits": 1,
+      "protocol_metadata_bits": 256,
+      "linkability_handle": null,
+      "elapsed_ms": 4.2059,
+      "notes": [
+        "token issuance and redemption are unlinkable in this toy blind-signature flow"
+      ]
+    },
+    {
+      "user_id": "U001",
+      "policy": "trained_adult_student",
+      "mode": "baseline-full-identity",
+      "allowed": true,
+      "verified": true,
+      "exposed_fields": [
+        "age_over_18",
+        "authorization_level",
+        "credential_status",
+        "department",
+        "department_cyber",
+        "email",
+        "expires_at",
+        "id_number",
+        "name",
+        "project_id",
+        "role",
+        "role_student",
+        "student_id",
+        "training_completed"
+      ],
+      "personal_leakage_bits": 221,
+      "protocol_metadata_bits": 0,
+      "linkability_handle": "U001",
+      "elapsed_ms": 0.0141,
+      "notes": []
+    },
+    {
+      "user_id": "U001",
+      "policy": "trained_adult_student",
+      "mode": "selective-disclosure-merkle-vc",
+      "allowed": true,
+      "verified": true,
+      "exposed_fields": [
+        "age_over_18",
+        "role_student",
+        "training_completed",
+        "credential_root"
+      ],
+      "personal_leakage_bits": 3,
+      "protocol_metadata_bits": 256,
+      "linkability_handle": "ac83c0c5e0217b885c34baae9e51e4aea40d3630d8623b31789532e41b1b96ed",
+      "elapsed_ms": 67.2839,
+      "notes": [
+        "credential root is stable and linkable across presentations"
+      ]
+    },
+    {
+      "user_id": "U001",
+      "policy": "trained_adult_student",
+      "mode": "blind-token-minimal-disclosure",
+      "allowed": true,
+      "verified": true,
+      "exposed_fields": [
+        "policy_satisfied_bit",
+        "single_use_token"
+      ],
+      "personal_leakage_bits": 1,
+      "protocol_metadata_bits": 256,
+      "linkability_handle": null,
+      "elapsed_ms": 4.0833,
+      "notes": [
+        "token issuance and redemption are unlinkable in this toy blind-signature flow"
+      ]
+    },
+    {
+      "user_id": "U001",
+      "policy": "cyber_project_level2",
+      "mode": "baseline-full-identity",
+      "allowed": true,
+      "verified": true,
+      "exposed_fields": [
+        "age_over_18",
+        "authorization_level",
+        "credential_status",
+        "department",
+        "department_cyber",
+        "email",
+        "expires_at",
+        "id_number",
+        "name",
+        "project_id",
+        "role",
+        "role_student",
+        "student_id",
+        "training_completed"
+      ],
+      "personal_leakage_bits": 221,
+      "protocol_metadata_bits": 0,
+      "linkability_handle": "U001",
+      "elapsed_ms": 0.011,
+      "notes": []
+    },
+    {
+      "user_id": "U001",
+      "policy": "cyber_project_level2",
+      "mode": "selective-disclosure-merkle-vc",
+      "allowed": true,
+      "verified": true,
+      "exposed_fields": [
+        "authorization_level",
+        "department_cyber",
+        "credential_root"
+      ],
+      "personal_leakage_bits": 4,
+      "protocol_metadata_bits": 256,
+      "linkability_handle": "ac83c0c5e0217b885c34baae9e51e4aea40d3630d8623b31789532e41b1b96ed",
+      "elapsed_ms": 68.1189,
+      "notes": [
+        "credential root is stable and linkable across presentations"
+      ]
+    },
+    {
+      "user_id": "U001",
+      "policy": "cyber_project_level2",
+      "mode": "blind-token-minimal-disclosure",
+      "allowed": true,
+      "verified": true,
+      "exposed_fields": [
+        "policy_satisfied_bit",
+        "single_use_token"
+      ],
+      "personal_leakage_bits": 1,
+      "protocol_metadata_bits": 256,
+      "linkability_handle": null,
+      "elapsed_ms": 4.2362,
+      "notes": [
+        "token issuance and redemption are unlinkable in this toy blind-signature flow"
+      ]
+    },
+    {
+      "user_id": "U002",
+      "policy": "student_basic",
+      "mode": "baseline-full-identity",
+      "allowed": true,
+      "verified": true,
+      "exposed_fields": [
+        "age_over_18",
+        "authorization_level",
+        "credential_status",
+        "department",
+        "department_cyber",
+        "email",
+        "expires_at",
+        "id_number",
+        "name",
+        "project_id",
+        "role",
+        "role_student",
+        "student_id",
+        "training_completed"
+      ],
+      "personal_leakage_bits": 221,
+      "protocol_metadata_bits": 0,
+      "linkability_handle": "U002",
+      "elapsed_ms": 0.0114,
+      "notes": []
+    },
+    {
+      "user_id": "U002",
+      "policy": "student_basic",
+      "mode": "selective-disclosure-merkle-vc",
+      "allowed": true,
+      "verified": true,
+      "exposed_fields": [
+        "role_student",
+        "credential_root"
+      ],
+      "personal_leakage_bits": 1,
+      "protocol_metadata_bits": 256,
+      "linkability_handle": "30df3c0fb896e76cddca796423b72acdb4cc77d46620d5320a01d32da25d2c10",
+      "elapsed_ms": 67.7169,
+      "notes": [
+        "credential root is stable and linkable across presentations"
+      ]
+    },
+    {
+      "user_id": "U002",
+      "policy": "student_basic",
+      "mode": "blind-token-minimal-disclosure",
+      "allowed": true,
+      "verified": true,
+      "exposed_fields": [
+        "policy_satisfied_bit",
+        "single_use_token"
+      ],
+      "personal_leakage_bits": 1,
+      "protocol_metadata_bits": 256,
+      "linkability_handle": null,
+      "elapsed_ms": 3.9569,
+      "notes": [
+        "token issuance and redemption are unlinkable in this toy blind-signature flow"
+      ]
+    },
+    {
+      "user_id": "U002",
+      "policy": "trained_adult_student",
+      "mode": "baseline-full-identity",
+      "allowed": false,
+      "verified": true,
+      "exposed_fields": [
+        "age_over_18",
+        "authorization_level",
+        "credential_status",
+        "department",
+        "department_cyber",
+        "email",
+        "expires_at",
+        "id_number",
+        "name",
+        "project_id",
+        "role",
+        "role_student",
+        "student_id",
+        "training_completed"
+      ],
+      "personal_leakage_bits": 221,
+      "protocol_metadata_bits": 0,
+      "linkability_handle": "U002",
+      "elapsed_ms": 0.0115,
+      "notes": []
+    },
+    {
+      "user_id": "U002",
+      "policy": "trained_adult_student",
+      "mode": "selective-disclosure-merkle-vc",
+      "allowed": false,
+      "verified": true,
+      "exposed_fields": [
+        "age_over_18",
+        "role_student",
+        "training_completed",
+        "credential_root"
+      ],
+      "personal_leakage_bits": 3,
+      "protocol_metadata_bits": 256,
+      "linkability_handle": "30df3c0fb896e76cddca796423b72acdb4cc77d46620d5320a01d32da25d2c10",
+      "elapsed_ms": 67.9185,
+      "notes": [
+        "credential root is stable and linkable across presentations"
+      ]
+    },
+    {
+      "user_id": "U002",
+      "policy": "trained_adult_student",
+      "mode": "blind-token-minimal-disclosure",
+      "allowed": false,
+      "verified": true,
+      "exposed_fields": [],
+      "personal_leakage_bits": 1,
+      "protocol_metadata_bits": 0,
+      "linkability_handle": null,
+      "elapsed_ms": 0.1756,
+      "notes": [
+        "issuer refused token because policy failed or credential was revoked"
+      ]
+    },
+    {
+      "user_id": "U002",
+      "policy": "cyber_project_level2",
+      "mode": "baseline-full-identity",
+      "allowed": false,
+      "verified": true,
+      "exposed_fields": [
+        "age_over_18",
+        "authorization_level",
+        "credential_status",
+        "department",
+        "department_cyber",
+        "email",
+        "expires_at",
+        "id_number",
+        "name",
+        "project_id",
+        "role",
+        "role_student",
+        "student_id",
+        "training_completed"
+      ],
+      "personal_leakage_bits": 221,
+      "protocol_metadata_bits": 0,
+      "linkability_handle": "U002",
+      "elapsed_ms": 0.0064,
+      "notes": []
+    },
+    {
+      "user_id": "U002",
+      "policy": "cyber_project_level2",
+      "mode": "selective-disclosure-merkle-vc",
+      "allowed": false,
+      "verified": true,
+      "exposed_fields": [
+        "authorization_level",
+        "department_cyber",
+        "credential_root"
+      ],
+      "personal_leakage_bits": 4,
+      "protocol_metadata_bits": 256,
+      "linkability_handle": "30df3c0fb896e76cddca796423b72acdb4cc77d46620d5320a01d32da25d2c10",
+      "elapsed_ms": 69.7276,
+      "notes": [
+        "credential root is stable and linkable across presentations"
+      ]
+    },
+    {
+      "user_id": "U002",
+      "policy": "cyber_project_level2",
+      "mode": "blind-token-minimal-disclosure",
+      "allowed": false,
+      "verified": true,
+      "exposed_fields": [],
+      "personal_leakage_bits": 1,
+      "protocol_metadata_bits": 0,
+      "linkability_handle": null,
+      "elapsed_ms": 0.2319,
+      "notes": [
+        "issuer refused token because policy failed or credential was revoked"
+      ]
+    },
+    {
+      "user_id": "U003",
+      "policy": "student_basic",
+      "mode": "baseline-full-identity",
+      "allowed": false,
+      "verified": true,
+      "exposed_fields": [
+        "age_over_18",
+        "authorization_level",
+        "credential_status",
+        "department",
+        "department_cyber",
+        "email",
+        "expires_at",
+        "id_number",
+        "name",
+        "project_id",
+        "role",
+        "role_student",
+        "student_id",
+        "training_completed"
+      ],
+      "personal_leakage_bits": 221,
+      "protocol_metadata_bits": 0,
+      "linkability_handle": "U003",
+      "elapsed_ms": 0.0091,
+      "notes": []
+    },
+    {
+      "user_id": "U003",
+      "policy": "student_basic",
+      "mode": "selective-disclosure-merkle-vc",
+      "allowed": false,
+      "verified": true,
+      "exposed_fields": [
+        "role_student",
+        "credential_root"
+      ],
+      "personal_leakage_bits": 1,
+      "protocol_metadata_bits": 256,
+      "linkability_handle": "1d5ba5e459b5d6936f2ff7deebafc1e7129219db7114d957a37fe9aec0ee87d8",
+      "elapsed_ms": 77.818,
+      "notes": [
+        "credential root is stable and linkable across presentations"
+      ]
+    },
+    {
+      "user_id": "U003",
+      "policy": "student_basic",
+      "mode": "blind-token-minimal-disclosure",
+      "allowed": false,
+      "verified": true,
+      "exposed_fields": [],
+      "personal_leakage_bits": 1,
+      "protocol_metadata_bits": 0,
+      "linkability_handle": null,
+      "elapsed_ms": 0.2014,
+      "notes": [
+        "issuer refused token because policy failed or credential was revoked"
+      ]
+    },
+    {
+      "user_id": "U003",
+      "policy": "trained_adult_student",
+      "mode": "baseline-full-identity",
+      "allowed": false,
+      "verified": true,
+      "exposed_fields": [
+        "age_over_18",
+        "authorization_level",
+        "credential_status",
+        "department",
+        "department_cyber",
+        "email",
+        "expires_at",
+        "id_number",
+        "name",
+        "project_id",
+        "role",
+        "role_student",
+        "student_id",
+        "training_completed"
+      ],
+      "personal_leakage_bits": 221,
+      "protocol_metadata_bits": 0,
+      "linkability_handle": "U003",
+      "elapsed_ms": 0.009,
+      "notes": []
+    },
+    {
+      "user_id": "U003",
+      "policy": "trained_adult_student",
+      "mode": "selective-disclosure-merkle-vc",
+      "allowed": false,
+      "verified": true,
+      "exposed_fields": [
+        "age_over_18",
+        "role_student",
+        "training_completed",
+        "credential_root"
+      ],
+      "personal_leakage_bits": 3,
+      "protocol_metadata_bits": 256,
+      "linkability_handle": "1d5ba5e459b5d6936f2ff7deebafc1e7129219db7114d957a37fe9aec0ee87d8",
+      "elapsed_ms": 71.7421,
+      "notes": [
+        "credential root is stable and linkable across presentations"
+      ]
+    },
+    {
+      "user_id": "U003",
+      "policy": "trained_adult_student",
+      "mode": "blind-token-minimal-disclosure",
+      "allowed": false,
+      "verified": true,
+      "exposed_fields": [],
+      "personal_leakage_bits": 1,
+      "protocol_metadata_bits": 0,
+      "linkability_handle": null,
+      "elapsed_ms": 0.2151,
+      "notes": [
+        "issuer refused token because policy failed or credential was revoked"
+      ]
+    },
+    {
+      "user_id": "U003",
+      "policy": "cyber_project_level2",
+      "mode": "baseline-full-identity",
+      "allowed": true,
+      "verified": true,
+      "exposed_fields": [
+        "age_over_18",
+        "authorization_level",
+        "credential_status",
+        "department",
+        "department_cyber",
+        "email",
+        "expires_at",
+        "id_number",
+        "name",
+        "project_id",
+        "role",
+        "role_student",
+        "student_id",
+        "training_completed"
+      ],
+      "personal_leakage_bits": 221,
+      "protocol_metadata_bits": 0,
+      "linkability_handle": "U003",
+      "elapsed_ms": 0.0122,
+      "notes": []
+    },
+    {
+      "user_id": "U003",
+      "policy": "cyber_project_level2",
+      "mode": "selective-disclosure-merkle-vc",
+      "allowed": true,
+      "verified": true,
+      "exposed_fields": [
+        "authorization_level",
+        "department_cyber",
+        "credential_root"
+      ],
+      "personal_leakage_bits": 4,
+      "protocol_metadata_bits": 256,
+      "linkability_handle": "1d5ba5e459b5d6936f2ff7deebafc1e7129219db7114d957a37fe9aec0ee87d8",
+      "elapsed_ms": 72.753,
+      "notes": [
+        "credential root is stable and linkable across presentations"
+      ]
+    },
+    {
+      "user_id": "U003",
+      "policy": "cyber_project_level2",
+      "mode": "blind-token-minimal-disclosure",
+      "allowed": true,
+      "verified": true,
+      "exposed_fields": [
+        "policy_satisfied_bit",
+        "single_use_token"
+      ],
+      "personal_leakage_bits": 1,
+      "protocol_metadata_bits": 256,
+      "linkability_handle": null,
+      "elapsed_ms": 4.6635,
+      "notes": [
+        "token issuance and redemption are unlinkable in this toy blind-signature flow"
+      ]
+    },
+    {
+      "user_id": "U004",
+      "policy": "student_basic",
+      "mode": "baseline-full-identity",
+      "allowed": true,
+      "verified": true,
+      "exposed_fields": [
+        "age_over_18",
+        "authorization_level",
+        "credential_status",
+        "department",
+        "department_cyber",
+        "email",
+        "expires_at",
+        "id_number",
+        "name",
+        "project_id",
+        "role",
+        "role_student",
+        "student_id",
+        "training_completed"
+      ],
+      "personal_leakage_bits": 221,
+      "protocol_metadata_bits": 0,
+      "linkability_handle": "U004",
+      "elapsed_ms": 0.0137,
+      "notes": []
+    },
+    {
+      "user_id": "U004",
+      "policy": "student_basic",
+      "mode": "selective-disclosure-merkle-vc",
+      "allowed": true,
+      "verified": true,
+      "exposed_fields": [
+        "role_student",
+        "credential_root"
+      ],
+      "personal_leakage_bits": 1,
+      "protocol_metadata_bits": 256,
+      "linkability_handle": "8cec580e7d93d4e84108f54969d1b7429e483349e7b23a5362c63c6bbbb969ee",
+      "elapsed_ms": 72.3249,
+      "notes": [
+        "credential root is stable and linkable across presentations"
+      ]
+    },
+    {
+      "user_id": "U004",
+      "policy": "student_basic",
+      "mode": "blind-token-minimal-disclosure",
+      "allowed": true,
+      "verified": true,
+      "exposed_fields": [
+        "policy_satisfied_bit",
+        "single_use_token"
+      ],
+      "personal_leakage_bits": 1,
+      "protocol_metadata_bits": 256,
+      "linkability_handle": null,
+      "elapsed_ms": 4.5799,
+      "notes": [
+        "token issuance and redemption are unlinkable in this toy blind-signature flow"
+      ]
+    },
+    {
+      "user_id": "U004",
+      "policy": "trained_adult_student",
+      "mode": "baseline-full-identity",
+      "allowed": false,
+      "verified": true,
+      "exposed_fields": [
+        "age_over_18",
+        "authorization_level",
+        "credential_status",
+        "department",
+        "department_cyber",
+        "email",
+        "expires_at",
+        "id_number",
+        "name",
+        "project_id",
+        "role",
+        "role_student",
+        "student_id",
+        "training_completed"
+      ],
+      "personal_leakage_bits": 221,
+      "protocol_metadata_bits": 0,
+      "linkability_handle": "U004",
+      "elapsed_ms": 0.0136,
+      "notes": []
+    },
+    {
+      "user_id": "U004",
+      "policy": "trained_adult_student",
+      "mode": "selective-disclosure-merkle-vc",
+      "allowed": false,
+      "verified": true,
+      "exposed_fields": [
+        "age_over_18",
+        "role_student",
+        "training_completed",
+        "credential_root"
+      ],
+      "personal_leakage_bits": 3,
+      "protocol_metadata_bits": 256,
+      "linkability_handle": "8cec580e7d93d4e84108f54969d1b7429e483349e7b23a5362c63c6bbbb969ee",
+      "elapsed_ms": 72.694,
+      "notes": [
+        "credential root is stable and linkable across presentations"
+      ]
+    },
+    {
+      "user_id": "U004",
+      "policy": "trained_adult_student",
+      "mode": "blind-token-minimal-disclosure",
+      "allowed": false,
+      "verified": true,
+      "exposed_fields": [],
+      "personal_leakage_bits": 1,
+      "protocol_metadata_bits": 0,
+      "linkability_handle": null,
+      "elapsed_ms": 0.2003,
+      "notes": [
+        "issuer refused token because policy failed or credential was revoked"
+      ]
+    },
+    {
+      "user_id": "U004",
+      "policy": "cyber_project_level2",
+      "mode": "baseline-full-identity",
+      "allowed": true,
+      "verified": true,
+      "exposed_fields": [
+        "age_over_18",
+        "authorization_level",
+        "credential_status",
+        "department",
+        "department_cyber",
+        "email",
+        "expires_at",
+        "id_number",
+        "name",
+        "project_id",
+        "role",
+        "role_student",
+        "student_id",
+        "training_completed"
+      ],
+      "personal_leakage_bits": 221,
+      "protocol_metadata_bits": 0,
+      "linkability_handle": "U004",
+      "elapsed_ms": 0.0098,
+      "notes": []
+    },
+    {
+      "user_id": "U004",
+      "policy": "cyber_project_level2",
+      "mode": "selective-disclosure-merkle-vc",
+      "allowed": true,
+      "verified": true,
+      "exposed_fields": [
+        "authorization_level",
+        "department_cyber",
+        "credential_root"
+      ],
+      "personal_leakage_bits": 4,
+      "protocol_metadata_bits": 256,
+      "linkability_handle": "8cec580e7d93d4e84108f54969d1b7429e483349e7b23a5362c63c6bbbb969ee",
+      "elapsed_ms": 72.2703,
+      "notes": [
+        "credential root is stable and linkable across presentations"
+      ]
+    },
+    {
+      "user_id": "U004",
+      "policy": "cyber_project_level2",
+      "mode": "blind-token-minimal-disclosure",
+      "allowed": true,
+      "verified": true,
+      "exposed_fields": [
+        "policy_satisfied_bit",
+        "single_use_token"
+      ],
+      "personal_leakage_bits": 1,
+      "protocol_metadata_bits": 256,
+      "linkability_handle": null,
+      "elapsed_ms": 4.5198,
+      "notes": [
+        "token issuance and redemption are unlinkable in this toy blind-signature flow"
+      ]
+    }
+  ],
+  "revocation_check": {
+    "revoked_credential": "cred-U001",
+    "allowed_after_revocation": false,
+    "verified": true,
+    "notes": [
+      "issuer refused token because policy failed or credential was revoked"
+    ]
+  },
+  "issuer_blinded_values_seen": 7
+}
